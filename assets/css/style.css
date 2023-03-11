@@ -1,0 +1,241 @@
+:root {
+    --main-color: #00fff5;
+    --title-color: #0066ff;
+    --size-20: 20px;
+    --size-28: 28px;
+
+}
+body{
+    background: #061427;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1213px;
+    width: 90%;
+    margin: 57px auto;
+}
+.header a{
+    color: var(--main-color)
+}
+.logo{
+    margin-right: 334px;
+}
+.resume{
+    margin-left: 235px;
+    border: 1px dashed var(--title-color);
+    border-radius: 30px;
+    padding: 10px;
+}
+.list{
+    margin-right: 50px;
+}
+.about{
+    display: flex;
+    max-width: 1213px;
+    width: 90%;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 168px;
+}
+.head h1{
+    color: var(--main-color);
+    font-size: var(--size-28);
+}
+.avatar{
+    width: 325px;
+    height: 391px;
+    border-radius: 30px;
+    border: 1px dashed var(--title-color);
+    padding: 30px;
+}
+.text{
+    color: var(--main-color);
+    margin-left: 84px;
+}
+.text h2{
+    margin-top: 121px;
+    margin-bottom: 55px;
+    font-size: 24px;
+}
+.text p{
+    width: 607px;
+    height: 115px;
+    font-size: var(--size-20);
+}
+.text button{
+    width: 244px;
+    height: 49px;
+    background: var(--main-color);
+    color: white;
+    border-radius: 30px;
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.arrow img{
+    width: 40px;
+    height: 70px;
+    margin-bottom: 28px;
+}
+.arrow h2{
+    color: #0066ff;
+    font-size: var(--size-28);
+}
+.left{
+    margin-left: 104px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.left img{
+    margin-bottom: 24px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.head2 h2{
+    font-size: var(--size-28);
+    color: var(--main-color);
+    margin-top: 150px;
+}
+.work{
+    max-width: 1213px;
+    width: 90%;
+    margin: 57px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.work img{
+    border-radius: 30px;
+    border: 1px dashed var(--title-color);
+    padding: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background: var(--main-color);
+    color: white;
+    border-radius: 30px;
+    width: 268px;
+    height: 49px;
+    font-size: var(--size-20);
+}
+
+.exp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1216px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px dashed var(--title-color);
+    border-radius: 30px;
+    margin-bottom: 80px;
+    width: 987px;
+    height: 238px;
+}
+.exp h3, p{
+    color: white;
+}
+.exp h3{
+    margin-top: 79px;
+    margin-left: 54px;
+    font-size: 22px;
+}
+.exp p{
+    width: 569px;
+    height: 88px;
+    margin-top: 30px;
+}
+.head3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.head3 h2{
+    font-size: var(--size-28);
+    color: var(--main-color);
+    margin-top: 150px;
+    margin-bottom: 52px;
+}
+.head3 p{
+    font-size: var(--size-20);
+    color: white;
+    margin-top: 22px;
+}
+.container{
+    max-width: 1216px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px dashed var(--title-color);
+    border-radius: 30px;
+    padding: 20px;
+    width: 294px;
+    height: 214px;
+}
+.about-left img, p{
+    display: inline;
+}
+.about-left img{
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 64px;
+}
+.pre{
+    margin-top: 50px;
+}
+.work-header{
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: var(--size-28);
+    margin-top: 158px;
+}
+.work-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1216px;
+    width: 90%;
+    margin: 30px auto;
+    gap: 60px;
+}
+.work-text p, h2{
+    display: flex;
+    flex-direction: column;
+    color: var(--main-color);
+    padding: 10px;
+}
+.work-text h2{
+    font-size: var(--size-28);
+}
+.work-text{
+    margin-top: 30px;
+    position: relative;
+    left: -200px;
+}
+.work-btn{
+    background: var(--main-color);
+    color: white;
+    width: 244px;
+    height: 49px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
